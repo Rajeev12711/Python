@@ -39,7 +39,6 @@ def  calculater():
             again = False
             calculater()
         elif reuse.lower() == "yes":
-
             again = True
         elif reuse.lower() == "exit":
             again =False

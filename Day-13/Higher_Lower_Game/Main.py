@@ -53,6 +53,10 @@ while game_ongoing:
     b = detail()
     print(f"You're right,! Currrent Score: {score}.")
   else:
-    game_ongoing = False
     print(f"Sorry, that's wrong. Final Score: {score}")
-
+    
+    restart = input("You want to Restrart the game than enter 'Yes' or not than 'No': ").lower()
+    if restart == "yes":
+      game_ongoing= True
+    else:
+      game_ongoing = False

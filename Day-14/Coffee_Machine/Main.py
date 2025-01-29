@@ -1,10 +1,7 @@
-from idlelib.configdialog import changes
-
 from Assets import MENU, resources
 
 
 money = 0
-
 
 def check_resources(user_choice):
     choice = MENU[user_choice]["ingredients"]

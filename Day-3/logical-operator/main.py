@@ -1,8 +1,8 @@
-height = int(input("enter a height"))
-
+height = int(input("Enter your height.: "))
+bill=0
 if height >= 120:
     print("You can ride the rollercoaster!") 
-    age=int(input("What is your age? "))
+    age=int(input("What is your age?: "))
     if age <12:
         bill=5
         print("Child tickets are $5.") 
@@ -21,7 +21,6 @@ if height >= 120:
         print("$3 extra for photo.")
         bill+=3
         
-    
     print("your bill is", bill)
 else:
-    print("Sorry, you have to grow taller before you can ride.") 
+    print("Sorry, You have to grow taller before you can ride.") 

@@ -15,9 +15,9 @@ e=name.count("e")
 love=str(l+o+v+e)
 score=int(true+love)
 
-if (score<=0 and score<10) or (score >90 and score<=100):
-    print("your score is " ,score, "you go together like coke annd  mentos.")
+if (score>=0 and score<=10) or (score >90 and score<=100):
+    print("your score is ",score, "you go together like coke annd mentos.")
 elif score>40 and score<=50:
     print("your score is ",score, "you are alright togrther")
 else:
-    print("your love score is " ,score)
+    print("Your love score is ",score)

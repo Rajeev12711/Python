@@ -19,17 +19,15 @@ nr_numbers = int(input("How many numbers would you like?\n"))
 #     password += random.choice(sletters)
 
 # for sym in range(1,nr_symbols+1):
-    
 #     password += random.choice(symbols)
 
 # for num in range(1, nr_numbers+1):
-    
 #     password += random.choice(numbers)
 
 # print(password)
 
-# Hard Password
 
+# Hard Password
 password_list=[]
 
 for l in range(1,nr_letters+1):
@@ -39,17 +37,17 @@ for s in range(1,nr_sletters+1):
     password_list += random.choice(sletters)
 
 for sym in range(1,nr_symbols+1):
-    
     password_list += random.choice(symbols)
 
 for num in range(1, nr_numbers+1):
-    
     password_list += random.choice(numbers)
+    
 final=""
-# print(password_list)
+
 random.shuffle(password_list) 
-# print(password_list)
+
 for he  in password_list:
     final += he
+    print(final)
 
-print("Your Password",final)
+print("Your Password:",final)

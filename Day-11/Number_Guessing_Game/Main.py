@@ -26,10 +26,10 @@ def levels(level):
 def game():
     print("Welcome to the Number Guessing Game!")
     print("I'm thinking of a number between 1 and 100.")
-    level = input("Choose a difficulty. Type 'EASY' or 'Medium' or 'HARD': ").lower()
+    level = input("Choose a difficulty. Enter 'Easy' or 'Medium' or 'Hard': ").lower()
     moves= levels(level)
     number = random_num()
-    print(f"You have {moves} attempts remaining to guess the number.")
+    print(f"You have {moves} attempt to guess the number.")
 
     user=0
     while user != number:
@@ -38,15 +38,11 @@ def game():
         
         moves-=1
         if user != number and moves > 0:
-            print(f"You have {moves} attempts remaining to guess the number.")
+            print(f"You have {moves} attempt remaining to guess the number.")
             print("Guess again.")
         elif moves == 0 and user != number:
             return f"You've run out of moves. You lose. The number was {number}."   
         elif user == number:
-            return f"you got it. The answer is {number}"
+            return f"You got it. The answer is {number}"
             
-        
-        
-        
-
 print(game())

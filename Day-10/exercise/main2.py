@@ -20,21 +20,21 @@ operations ={
     }
 
 def  calculater():
-    print("Welcome to world of Calculation")
-    x = float(input("enter the first number: "))
+    print("Welcome to world of Calculation.")
+    x = float(input("Enter the First Number: "))
     again = True
     while again == True:
         for operator in operations:
             print(operator)
-        symbol = input("Choose Any Operation From the Line Above: ")
-        y = float(input("enter the next number: "))
+        symbol = input("Choose any operation from the line above: ")
+        y = float(input("Enter the next number: "))
         calculate = operations[symbol]
         answer = calculate(x, y)
 
         print(f"{x} {symbol} {y} = {answer}")
         x = answer
         
-        reuse = input(f"Type 'yes' to continue calculating with  {answer}, or type 'no' to Start new calculation, or type 'Exit' for Exit the calculater: ")
+        reuse = input(f"Enter 'Yes' to continue calculating with {answer}, or enter 'No' to Start new calculation, or Enter 'Exit' for Exit the calculater: ")
         if reuse.lower()  == "no":
             again = False
             calculater()
@@ -44,6 +44,6 @@ def  calculater():
             again =False
         else:
             again = False
-            print("Invaild ")
+            print("Invaild")
 
 calculater() 

@@ -9,14 +9,14 @@ life = 4
 empty =[]
 for display in range(num):
     empty += "_" 
-                 
+
 end_game = False
 
 while not end_game:
-    guess =input("Guess The Indian State By Letter!\n").lower()
-    for index in range(len(word)):
+    guess = input("Guess The Indian State By a Letter!\n").lower()       
+    for index in range(num):
         letter = word[index]
-        if guess==letter:
+        if letter == guess:
             empty[index]=letter
     if guess not in word:
         life -= 1
@@ -25,7 +25,7 @@ while not end_game:
             end_game = True
             print("You Lose")
 
-    print(empty)
+    print(f"{' '.join(empty)}")
     
     if "_" not in empty:
         end_game = True 

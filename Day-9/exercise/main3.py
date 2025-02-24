@@ -1,6 +1,6 @@
 import os
 
-print("Welcome to the secret auction bid.\nStart The bid Price")
+print("Welcome to the secret auction bid.\nStart The bid Price.")
 bids =[]
 
 def auction(name, price):
@@ -21,10 +21,10 @@ def highest(bids):
  
 again = True
 while again:
-    name = input("What is your Name? ")
-    price = input("Enter your bid Price: ")
+    name = input("What is your Name?\n").capitalize()
+    price = input("Enter your bid Price:\n")
     auction(name, price)
-    reuse= input("If there are other use than type 'yes' or not than 'no' ? \n")
+    reuse= input("If there are other use than enter 'yes' or not than 'no'?\n")
     if reuse.lower() =="no":
         again=False
         highest(bids)

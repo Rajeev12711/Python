@@ -5,10 +5,12 @@ def hello():
 
 hello()
 
-name = input("What is you name? ")
 def hi(name):
     print(f"Hello {name}")
-    print(f"HOw do you do {name}")
+    print(f"How do you do {name}")
     print("is not the weather nice today?")
+
+
+name = input("What is you name? ")
 
 hi(name)

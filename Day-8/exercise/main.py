@@ -1,8 +1,8 @@
 import math
 def paint(height, width, coverage):
    box = ((height * width) / coverage)
-   boxs = math.ceil(box)
-   print(f"You'll need {boxs} boxs")
+   boxes = math.ceil(box)
+   print(f"You'll need {boxes} boxes")
 
 height =  int(input("Enter the height(meter) of wall = "))
 width = int(input("Enter the width(meter) of wall = "))

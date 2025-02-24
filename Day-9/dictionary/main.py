@@ -1,7 +1,7 @@
 dictionary = {
-    "bug": "this is problem", 
-    "function": "recall the function"}
-dictionary["loop"] = "for and whille"
+    "Bug": "This is problem.", 
+    "Function": "Recall the function."}
+dictionary["Loop"] = "For and whille."
 
-print(dictionary["bug"])
+print(dictionary["Bug"])
 print(dictionary)

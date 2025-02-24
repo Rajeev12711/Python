@@ -1,7 +1,7 @@
 letters =["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 
 def crypt(text, shift, choice):
-    final =  ""
+    final = ""
     if choice == "decode":
         shift *= -1
     for letter in text:
@@ -18,12 +18,12 @@ def crypt(text, shift, choice):
 again =True
 
 while again:
-    choice =input("choices between 'encode' or 'decode': ")
-    text = input("Type a message: \n").lower()
-    shift = int(input("Enter the Number of shit use in 'encode' or 'decode:'\n"))
+    choice =input("Choices between 'Encode' or 'Decode': ").lower()
+    text = input("Enter a message:\n").lower()
+    shift = int(input("Enter the Number of shit use in 'Encode' or 'Decode:'\n"))
     shift= shift%26 
     crypt(text, shift, choice)
-    reuse = input("Do want to reuse the program than type 'yes' or if not than 'no'.")      
+    reuse = input("Do want to reuse the program than enter 'Yes' or if not than 'No'.: ").lower()     
     if reuse =="no":
-        again=False
-        print("Good Bye")
+        again = False 
+        print("Good Bye!")

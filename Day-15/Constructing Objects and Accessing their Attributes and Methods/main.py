@@ -1,7 +1,6 @@
 from turtle import Turtle, Screen
 
 box = Turtle()
-print(box)
 box.shape("triangle")
 box.color("grey")
 box.forward(100)

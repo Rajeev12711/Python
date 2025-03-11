@@ -1,13 +1,10 @@
 from turtle import Turtle, Screen
 import random
-import colorsys
 
 app= Turtle()
 
-colors = [
-    "Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Pink", "Brown", "Black",
-    "Cyan", "Magenta", "Lime", "Olive", "Teal", "Maroon", "Navy", "Gray", "Silver", "Gold",
-    "Beige", "Turquoise", "Violet", "Indigo", "Coral", "Lavender", "Salmon", "Crimson", "Azure", "Mint" ]
+colors = ["black", "white", "red", "green", "blue", "cyan", "yellow", "magenta",
+    "gray", "brown", "orange", "purple", "pink", "gold", "silver", "maroon", "navy", "lime", "teal", "violet", "indigo"]
 direction = [0, 90, 180, 270]
 
 app.pensize(10)

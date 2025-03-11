@@ -2,7 +2,7 @@ from turtle import Turtle, Screen
 
 app = Turtle()
 
-colors = ["Cyan", "Magenta", "Lime", "Olive", "Teal", "Maroon", "Navy", "Gray", "Silver", "Gold"]
+colors = ["gray", "brown", "orange", "purple", "pink", "gold", "silver", "maroon", "navy", "lime", "teal"]
 
 def shape(num):
     angle = 360/ num

@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="813759ed-e88e-466c-8fab-0b23af135d2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day-18/Understanding the Turtle Coordinate System/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day-19/Snake Game 01/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day-19/Snake Game 02/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day-19/Snake Game 02/snake.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Day-19/Snake Game/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -34,11 +39,14 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Python",
+    "last_opened_file_path": "D:/Python/Day-19/Snake Game 02",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\Day-19\Snake Game 02" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Python\Day-18" />
       <recent name="D:\Python\Make an Etch-A-Sketch App" />
@@ -115,5 +123,15 @@
       <updated>1740511742189</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Day-19/Snake Game 02/main.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,0 +1,23 @@
+from turtle import Turtle
+
+INDEX = [(0, 0),(-20,0), (-40,0)]
+
+class Snake:
+    def __init__(self):
+        self.segment = []
+        self.create_snake()
+
+    def create_snake(self):
+        for i in INDEX:
+            tim = Turtle("square")
+            tim.color("white")
+            tim.penup()
+            tim.goto(i)
+            self.segment.append(tim)
+
+    def move(self):
+        for z in range(len(self.segment) - 1, 0, -1):
+            new_x = self.segment[z - 1].xcor()
+            new_y = self.segment[z - 1].ycor()
+            self.segment[z].goto(new_x, new_y)
+        self.segment[0].forward(20)

@@ -2,6 +2,7 @@ from turtle import Screen
 from paddle import Paddle
 from ball import Ball
 import time
+from scoreboard import Score
 
 screen =Screen()
 screen.title("Pong Game")
@@ -9,10 +10,11 @@ screen.setup(width=800, height=600)
 screen.bgcolor("black")
 screen.tracer(0)
 
-
 right= Paddle((380, 0))
 left= Paddle((-380, 0))
+
 ball = Ball()
+score= Score()
 
 screen.listen()
 screen.onkey(right.up,"Up")
@@ -22,7 +24,7 @@ screen.onkey(left.down, "s")
 
 game_on =True
 while game_on:
-    time.sleep(0.09)
+    time.sleep(ball.movespeed)
     screen.update()
     ball.move()
 
@@ -34,8 +36,10 @@ while game_on:
 
     if ball.xcor()>360:
         ball.reset_ball()
+        score.l_side()
 
     if ball.xcor() < -360:
         ball.reset_ball()
+        score.r_side()
 
 screen.exitonclick()

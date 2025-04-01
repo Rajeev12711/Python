@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="813759ed-e88e-466c-8fab-0b23af135d2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Day-22/Final Turtle Crossing Game/scoreborad.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,7 @@
     "Python.question_model.executor": "Run",
     "Python.quiz_brain.executor": "Run",
     "Python.scoreboard.executor": "Run",
+    "Python.scoreborad.executor": "Run",
     "Python.snake.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",

@@ -32,6 +32,7 @@ while game_on:
     for obstacle_one in obstacle.all_obstacle:
         if obstacle_one.distance(player)<20:
             game_on= False
+            score.game_over()
 
 
 

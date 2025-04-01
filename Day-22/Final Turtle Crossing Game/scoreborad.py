@@ -16,3 +16,7 @@ class Score(Turtle):
         self.clear()
         self.level +=1
         self.write(f"Level: {self.level}", font=FONT)
+
+    def game_over(self):
+        self.goto(0,0)
+        self.write("Game Over", align="center", font=FONT)

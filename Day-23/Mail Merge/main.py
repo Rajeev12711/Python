@@ -7,5 +7,5 @@ with open("./Input/Letters/strating_letter.txt", "r") as file2:
 
 for i in range(len(names)):
     name= names[i].strip()
-    with open(f"./Output/ReadyToSend/letter_for_{name}", "w") as letter:
+    with open(f"./Output/ReadyToSend/letter_for_{name}.txt", "w") as letter:
         letter.write(contents.replace("[name]", name))

@@ -1,4 +1,3 @@
-import pandas
 import pandas as pd
 # from numpy import average
 
@@ -31,6 +30,6 @@ data_dict = {
     "Scores":[76, 65, 68 ]
 }
 
-data_2 = pandas.DataFrame(data_dict)
+data_2 = pd.DataFrame(data_dict)
 print(data_2)
 data_2.to_csv("new_data.csv")

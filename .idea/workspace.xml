@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="813759ed-e88e-466c-8fab-0b23af135d2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day-25/List Comprehension/Exercise/File1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day-25/List Comprehension/Exercise/File2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day-25/List Comprehension/Exercise/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day-25/List Comprehension/main3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day-25/Apply List Comprehension to the U.S. States Game/50_states.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day-25/Apply List Comprehension to the U.S. States Game/blank_states_img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day-25/Apply List Comprehension to the U.S. States Game/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day-24/Final States Game/missed_states.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Day-24/Final States Game/missed_states.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +48,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Python",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "last_opened_file_path": "D:/Python/Day-25/Apply List Comprehension to the U.S. States Game",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\Day-25\Apply List Comprehension to the U.S. States Game" />
       <recent name="D:\Python\Day-19\Snake Game 03" />
       <recent name="D:\Python\Day-19\Snake Game 02" />
     </key>
